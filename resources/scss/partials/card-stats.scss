@@ -1,0 +1,75 @@
+.card-stats {
+    height: max-content;
+    padding: 20px;
+    margin-left: 0, 10px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out;
+
+    .count-number-card {
+        font-size: 2.5rem;
+        color: #3461AB;
+    }
+
+    .count-text-one {
+        color: #888A8C;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .count-text-two {
+        color: #00ABE8;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        // transition: all 1s ease-in-out;
+    }
+
+}
+
+.card-stats-large {
+    margin-left: 0, 5px;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .card-stats {
+        height: max-content;
+        padding: 20px;
+        width: calc(100% / 3 - 20px);
+        margin-left: 0, 10px;
+        margin-bottom: 30px;
+        transition: all 0.2s ease-in-out;
+
+        .count-number-card {
+            font-size: 3rem;
+            color: #3461AB;
+        }
+
+        .count-text-one {
+            color: #888A8C;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .count-text-two {
+            color: #00ABE8;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    }
+
+    .card-stats-large {
+        width: calc(100% / 3 * 2 - 10px);
+        margin-left: 0, 5px;
+        margin-bottom: 30px;
+    }
+}

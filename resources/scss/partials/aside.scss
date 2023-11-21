@@ -1,0 +1,50 @@
+aside {
+    background-color: #D2E6F8;
+    width: 20vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    .logo-aside {
+        border-bottom: 4px solid #b8dff8;
+
+        img {
+            width: 50px;
+        }
+    }
+
+    .aside-links {
+        padding-left: 10px;
+
+        .menu-title {
+            color: #3461AB;
+            font-weight: 900;
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                list-style: none;
+                margin: 40px 0;
+
+                a {
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #888A8C;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: #636567;
+                }
+            }
+        }
+    }
+}
+
+.astro-img {
+    position: absolute;
+    width: 140px;
+    bottom: -33px;
+}

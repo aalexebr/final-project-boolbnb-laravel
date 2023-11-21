@@ -1,0 +1,48 @@
+main .main-section .main-container .container {
+    width: calc(100% - 60px);
+    height: auto !important;
+    margin: 30px;
+}
+
+.my-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .icon-payment {
+        max-width: 200px;
+        max-height: 200px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .title-payment {
+        font-size: 40px;
+        text-align: center;
+        color: #00ABE8;
+    }
+
+    h2 {
+        font-weight: bold;
+        color: #3461AB;
+    }
+
+    .info-payment {
+        font-size: 20px;
+
+        a {
+            text-decoration: none;
+            color: #3461AB;
+        }
+    }
+
+    .span-info-sponsor {
+        color: #888A8C;
+        font-weight: 800;
+    }
+
+
+}

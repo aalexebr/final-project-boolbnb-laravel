@@ -1,0 +1,93 @@
+.form-sponsor {
+
+    .form-check-label {
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .form-check {
+        padding: 0;
+    }
+
+    .title-form-sponsor {
+        color: #3461AB;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .span-info-sponsor {
+        color: #888A8C;
+        font-weight: 800;
+    }
+
+    .btn-sponsor {
+        border: none;
+        cursor: pointer;
+    }
+
+    .form-check-input {
+        border-color: #00ABE8 !important;
+    }
+
+    .form-check-input:checked[type=radio] {
+        background-color: #3461AB !important;
+        border-color: #3461AB !important;
+    }
+
+    .checkbox-sponsor:hover {
+        cursor: pointer;
+    }
+
+
+
+    .icon-sponsor {
+        max-height: 60px;
+    }
+
+}
+
+#payment-form {
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.braintree-card {
+    border-radius: 10px;
+}
+
+.braintree-sheet__content--form,
+.braintree-sheet__header {
+    background-color: #D2E6F8;
+}
+
+.braintree-sheet__content--form {
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+.braintree-sheet__header {
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+}
+
+.braintree-form-number,
+.braintree-form__hosted-field {
+    background-color: white;
+}
+
+.button--medium {
+    background-color: #00ABE8;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: #888A8C;
+    border-radius: 10px !important;
+    padding: 4px 10px;
+    border: none !important;
+}
+
+
+.button--medium:hover {
+    background-color: #3461AB;
+}
